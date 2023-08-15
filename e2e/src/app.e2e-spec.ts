@@ -5,7 +5,7 @@ describe('first-app-lesson-00 app', () => {
   beforeEach(() => browser.get(''));
 
   it('should display correct title', async () => {
-    expect(await element.all(by.css('h1')).get(0).getText()).toEqual('Default');
+    expect(await element.all(by.css('h1')).get(0).getText()).toEqual('Hello world!');
   });
 
   afterEach(async () => {
