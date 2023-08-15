@@ -4,8 +4,8 @@ describe('first-app-lesson-00 app', () => {
 
   beforeEach(() => browser.get(''));
 
-  it('should display correct title', async () => {
-    expect(await element.all(by.css('h1')).get(0).getText()).toEqual('Hello world!');
+  it('should display correct alt img', async () => {
+    expect(await element.all(by.css('img')).get(0).getAttribute('alt')).toEqual('logo');
   });
 
   afterEach(async () => {
