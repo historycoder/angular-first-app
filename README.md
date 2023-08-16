@@ -15,7 +15,7 @@ Using Angular v16 to complete the tutorial that had a starter project to dowload
 - [x] https://angular.io/tutorial/first-app/first-app-lesson-07
 - [x] https://angular.io/tutorial/first-app/first-app-lesson-08
 - [x] https://angular.io/tutorial/first-app/first-app-lesson-09
-- [ ] https://angular.io/tutorial/first-app/first-app-lesson-10
+- [x] https://angular.io/tutorial/first-app/first-app-lesson-10
 - [ ] https://angular.io/tutorial/first-app/first-app-lesson-11
 - [ ] https://angular.io/tutorial/first-app/first-app-lesson-12
 - [ ] https://angular.io/tutorial/first-app/first-app-lesson-13
