@@ -2,20 +2,28 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { HomeComponent } from './home.component';
 
-describe('HomeComponent', () => {
-  let component: HomeComponent;
-  let fixture: ComponentFixture<HomeComponent>;
+let component: HomeComponent;
+let fixture: ComponentFixture<HomeComponent>;
 
-  beforeEach(() => {
+describe('HomeComponent', () => {
+
+  beforeEach(() => 
     TestBed.configureTestingModule({
       imports: [HomeComponent]
-    });
-    fixture = TestBed.createComponent(HomeComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+    })
+    .compileComponents()
+    .then(() => {
+      fixture = TestBed.createComponent(HomeComponent);
+      component = fixture.componentInstance;
+      fixture.detectChanges();      
+    })
+  );
 
+  tests();
+});
+
+function tests() {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
-});
+}
